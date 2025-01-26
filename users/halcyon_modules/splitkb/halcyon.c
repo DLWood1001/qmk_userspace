@@ -109,7 +109,8 @@ void housekeeping_task_kb(void) {
     }
 
     if (!is_keyboard_master()) {
-        display_module_housekeeping_task_kb(module_master == hlc_tft_display);
+        /* display_module_housekeeping_task_kb(module_master == hlc_tft_display); */
+        display_module_housekeeping_task_kb(false); // Is master so can never be the second display
     }
 
     // Backlight feature

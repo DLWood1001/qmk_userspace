@@ -64,6 +64,14 @@
                 "HLC_NONE": "1",
                 "TARGET": "splitkb_halcyon_kyria_rev4_default_hlc"
             }
+        ],
+        [
+            "splitkb/halcyon/kyria/rev4",
+            "dlwood_kyria_halcyon",
+            {
+                "HLC_TFT_DISPLAY": "1",
+                "TARGET": "dlwood_kyria_halcyon"
+            }
         ]
     ]
 }
